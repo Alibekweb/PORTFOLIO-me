@@ -3,11 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 html{
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -76,7 +74,6 @@ header {
         top: 70px;
         flex-direction: column;
         background: #222;
-        color: #222;
         width: 100%;
         text-align: center;
         transition: 0.5s;
@@ -280,6 +277,8 @@ header {
 .projects-section h2 {
     font-size: 28px;
     color: #333;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .projects-section p {
@@ -295,6 +294,10 @@ header {
     flex-direction: column;
     gap: 50px;
     margin-top: 20px;
+}
+
+.pharagraf{
+    text-align: center;
 }
 
 
