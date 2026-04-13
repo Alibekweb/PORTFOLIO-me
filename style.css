@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
@@ -72,6 +76,7 @@ header {
         top: 70px;
         flex-direction: column;
         background: #222;
+        color: #222;
         width: 100%;
         text-align: center;
         transition: 0.5s;
